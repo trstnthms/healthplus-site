@@ -13,7 +13,7 @@
         <span class="eyebrow">HealthPlus Privacy</span>
         <h1>Privacy Policy</h1>
         <p class="lead">
-          Last updated: 10 June 2026
+          Last updated: 14 July 2026
         </p>
       </section>
 
@@ -67,23 +67,47 @@
           your device and in shared app-group storage so widgets, Apple Watch,
           and complications can show the same information.
         </p>
+        <p>
+          Apple Health data and MacroFactor imports are not uploaded to the
+          HealthPlus server. Health exports are created temporarily on your
+          device and removed after you close the share sheet.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Optional parkrun, Strava, and Wallet features</h2>
+        <p>
+          If you choose to connect Strava, HealthPlus sends your Strava athlete
+          ID, encrypted OAuth credentials, parkrun athlete ID and event, result
+          details, description template, candidate Strava activities, and sync
+          status to the HealthPlus service. The service uses this information
+          only to match your public parkrun result to your Strava activity and
+          update the activity description you selected.
+        </p>
+        <p>
+          If you create a parkrun Wallet pass, the service also stores the pass
+          runner and event details. Apple Wallet sends a device registration
+          identifier and push token to the service so the pass can be refreshed.
+        </p>
       </section>
 
       <section class="card">
         <h2>Accounts, analytics, and advertising</h2>
         <p>
           HealthPlus does not require you to create an account. HealthPlus does
-          not include third-party analytics, advertising, or tracking SDKs.
+          not include third-party analytics, advertising, or tracking SDKs. A
+          server-side connection record is created only if you connect Strava.
         </p>
       </section>
 
       <section class="card">
         <h2>Data sharing</h2>
         <p>
-          HealthPlus does not sell your personal data. Health and imported file
-          data is used on your device to provide the features you choose to use.
-          Apple platform services may process data as needed to provide Health,
-          widget, Apple Watch, and operating system functionality.
+          HealthPlus does not sell your personal data. Apple platform services
+          may process data as needed to provide Health, widget, Apple Watch,
+          Wallet, and operating system functionality. If you enable the optional
+          connected features, Cloudflare hosts the HealthPlus service and Strava
+          processes the account and activity requests needed to provide them.
         </p>
       </section>
 
@@ -92,7 +116,11 @@
         <p>
           You can remove local app data by deleting HealthPlus from your device.
           You can manage Health permissions at any time in the Health app or in
-          iOS Settings.
+          iOS Settings. You can disconnect Strava or delete the connected-service
+          data from the account page. This removes stored credentials, parkrun
+          details, sync history, Wallet pass records, and Wallet device
+          registrations associated with your parkrun ID. A pass already saved in
+          Apple Wallet remains on your device until you remove it there.
         </p>
       </section>
 
